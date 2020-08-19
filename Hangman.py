@@ -75,7 +75,7 @@ for game in range(22):
     print(f"The word you have to guess is --> {blanks}")
     while run_guess:
         if blanks == list(word):
-            print("\t\t\t\t==============================="
+            print("\t\t\t\t=========================================\n"
                   "\t\t\t\t|| Well Done! You win this guess       ||\n"
                   "\t\t\t\t|| Let's play again                    ||\n"
                   "\t\t\t\t=========================================")
@@ -93,6 +93,9 @@ for game in range(22):
             er = "`~<,>.?/:;\"'{[}]|\+=_-)(*&^%$#@!0123456789                       "
             if aws1 in er:
                 print('Game takes only one character at a time and it should not be special case or spaces or numbers')
-            checker()
+                print('Now enter any alphabet ==> abcdefghijklmnopqrstuvwxyz <==')
+                
+            else:
+                checker()
         except IndexError:
             print("Enter any alphabet")

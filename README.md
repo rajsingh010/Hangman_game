@@ -11,7 +11,7 @@ just copy or download and use it
 python Hangman.py
 ```
 
-#### Else if you had python 2 installed on your system then use -
+#### Else if you had python 2 installed on your system or if above command not working then use -
 
 ```
 python3 Hangman.py
